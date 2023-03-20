@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/4b561163af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="#"  style="color: #007bff; font-weight: bolder;"><img src="\images\logo.png" alt=""> Appointer</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item active">
+               <a class="nav-link" href="#">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#about">About Us</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#services">Services</a>
+             </li>
+            
+             <li class="nav-item">
+               <a class="nav-link" href="#footerss">Contact Us</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/patientLogin">User login</a>
+           </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/DoctorLogin">Professional Login</a>
+           </li>
+           </ul>
+         </div>
+       </nav>
+        <section class="register">
+            <div class="container">
+                <div class="title">Registration</div>
+                <div class="content">
+                    <form action="#">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Full Name</span>
+                                <input type="text" placeholder="Enter your name" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Username</span>
+                                <input type="text" placeholder="Enter your username" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Email</span>
+                                <input type="text" placeholder="Enter your email" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Phone Number</span>
+                                <input type="text" placeholder="Enter your number" required>
+                            </div>
+
+                            <div class="input-box">
+                                <span class="details">Password</span>
+                                <input type="text" placeholder="Enter your password" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Confirm Password</span>
+                                <input type="text" placeholder="Confirm your password" required>
+                            </div>
+                            <button id="get-location-btn"><i class="fa-solid fa-location-dot"></i>Get
+                                    Location</button>
+                            <div id="location">
+                                <span id="city-name"></span>
+                                <span id="coordinates"></span>
+                            </div>
+
+
+                        </div>
+                        <div class="gender-details">
+                            <input type="radio" name="gender" id="dot-1">
+                            <input type="radio" name="gender" id="dot-2">
+                            <input type="radio" name="gender" id="dot-3">
+                            <span class="gender-title">Gender</span>
+                            <div class="category">
+                                <label for="dot-1">
+                                    <span class="dot one"></span>
+                                    <span class="gender">Male</span>
+                                </label>
+                                <label for="dot-2">
+                                    <span class="dot two"></span>
+                                    <span class="gender">Female</span>
+                                </label>
+                                <label for="dot-3">
+                                    <span class="dot three"></span>
+                                    <span class="gender">Prefer not to say</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="Register">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <i class="fa-brands fa-twitter  contlogo"></i>
+            <i class="fa-brands fa-facebook contlogo"></i>
+            <i class="fa-brands fa-instagram contlogo"></i>
+            <!-- <i class="fa-solid fa-envelope  contlogo"></i> -->
+            <p>© Copyright pesudocodes</p>
+        
+          </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>
